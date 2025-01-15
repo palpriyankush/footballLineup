@@ -4,16 +4,22 @@ export const getStarters = function () {
   const startingEleven = this
     .filter((player) => player.positions
       .some((position) => position.from === "00:00"))
-    .map((player) => player.player_name);
+    .map(({ player_name, positions }) => ({
+      name: player_name,
+      position: positions[0].position
+    }));
 
-  return startingEleven.join('\n');
+  return startingEleven;
 };
 
 const getLineupDetails = (lineups) => {
   const lineup = lineups.lineup;
-  const getStarting11 = getStarters.bind(lineup);
+  const startingEleven = getStarters(lineup);
+  // const format = [`gk\n`, `def\n`, `mid\n`, `for\n`];
 
-  console.log(getStarting11());
+
+
+  // console.log(getStarting11());
 
 };
 
