@@ -1,0 +1,54 @@
+{
+   "GoalKeeper": [
+      {
+         "name": "Marc-André ter Stegen",
+         "jerseyNumber": 1
+      }
+   ],
+   "Defender": [
+      {
+         "name": "Jordi Alba Ramos",
+         "jerseyNumber": 18
+      },
+      {
+         "name": "Gerard Piqué Bernabéu",
+         "jerseyNumber": 3
+      },
+      {
+         "name": "Samuel Yves Umtiti",
+         "jerseyNumber": 23
+      },
+      {
+         "name": "Nélson Cabral Semedo",
+         "jerseyNumber": 2
+      }
+   ],
+   "Midfielder": [
+      {
+         "name": "Sergio Busquets i Burgos",
+         "jerseyNumber": 5
+      },
+      {
+         "name": "Ivan Rakitić",
+         "jerseyNumber": 4
+      },
+      {
+         "name": "Ousmane Dembélé",
+         "jerseyNumber": 11
+      },
+      {
+         "name": "Sergi Roberto Carnicer",
+         "jerseyNumber": 20
+      }
+   ],
+   "Forward": [
+      {
+         "name": "Luis Alberto Suárez Díaz",
+         "jerseyNumber": 9
+      },
+      {
+         "name": "Lionel Andrés Messi Cuccittini",
+         "jerseyNumber": 10
+      }
+   ]
+}
